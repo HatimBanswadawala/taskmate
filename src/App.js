@@ -3,6 +3,7 @@ import { Header } from './components/Header';
 import { AddTask } from './components/AddTask';
 import { ShowTask } from './components/ShowTask';
 import { useEffect, useState } from 'react';
+import { Footer } from './components/Footer';
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
                 setTaskList={setTaskList}
                 updatedTask={updatedTask}
                 setUpdatedTask={setUpdatedTask} />
+      <Footer/>
     </div>
   );
 }

@@ -34,7 +34,7 @@ header .logo span{
   font-size: 22px;
   margin-left: 7px;
   cursor: pointer;
-  color: #525252;
+  color: #0C60C9;
 }
 
 header .themeSelector span{
@@ -69,6 +69,8 @@ header .themeSelector .activeTheme{
 .addTask form{
   display: flex;
   gap: 7px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .addTask form input{
@@ -197,6 +199,26 @@ header .themeSelector .activeTheme{
   color: #D82148;
   cursor: pointer;
 }
+
+footer{
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  background-color: #FFFFFF;
+  box-shadow: var(--box-shadow);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+footer p{
+  font-size: 10px;
+  color: #0C60C9;
+}
+
 
 @media only screen and (max-width: 800px) {
   .showTask li{
