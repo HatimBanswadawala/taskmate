@@ -208,7 +208,7 @@ footer{
   padding: 15px;
   background-color: #FFFFFF;
   box-shadow: var(--box-shadow);
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
