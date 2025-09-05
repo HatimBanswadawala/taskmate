@@ -1,7 +1,7 @@
 export const Footer = () => {
   return (
     <footer>
-      <p className="footerText">Copyright &copy;2025 Designed by Hatim Banswadawala</p>
+      <p className="footerText">Copyright &copy;2025 Designed by Hatim Fatema Banswadawala</p>
     </footer>
   )
 }
